@@ -1,0 +1,4 @@
+David | hobby | 45
+David | hoge | 32
+David | rug | 27
+ds | vijfde | 0
