@@ -117,12 +117,11 @@ def raad_het_nummer():
                 print("Geen getal?")
             aantal_pogingen += 1
     new_score = (max_pogingen * moeilijkheidsgraad) - score(moeilijkheidsgraad, aantal_pogingen)
-    # score = (max_pogingen - gebruikte_pogingen) * moeilijkheidsgraad
     print(f"Je score is {new_score}")
     return new_score
 
-#main loop
-def appLoop():
+# main loop
+def app():
     while True:
         spelerInput()
         moeilijkheidsgraad = menu()
@@ -133,4 +132,5 @@ def appLoop():
         exit()
 
 # run
-appLoop()
+if __name__ == "__main__":
+    app()
